@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MySecProject.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{FCB18D85-781F-4A80-8193-1BFCE79EDA66}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MySecProject.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MySecProjectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{4DE6888C-3FE7-4944-A3F9-3A050079A9E2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MySecProject">
+			<UniqueIdentifier>{9643EDEB-C6A4-407C-8C1D-16C58FF47489}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MySecProject\MySecProject.Build.cs">
+			<Filter>Source\MySecProject</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MySecProject\MySecProject.cpp">
+			<Filter>Source\MySecProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MySecProject\MySecProject.h">
+			<Filter>Source\MySecProject</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MySecProject\MySecProjectGameModeBase.cpp">
+			<Filter>Source\MySecProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MySecProject\MySecProjectGameModeBase.h">
+			<Filter>Source\MySecProject</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
